@@ -1,8 +1,13 @@
-button{
-    width: 80px;
-    height: 40px;
+.button{
+    height: 50px;
+    width: 100px;
 }
 
-.anmi{
-    box-shadow: 0 23 34 0 red;
+
+.anim{
+    color: red;
+    box-shadow: 0px 7px 8px 0px red;
 }
+
+
+
