@@ -1,0 +1,33 @@
+#a{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    border: 2px solid red;
+    display: inline-block;
+    position: relative;
+    left:420px;
+
+}
+#b{
+    background-color: rgb(255, 51, 0);
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    display: inline-block;
+    border: 2px solid red;
+    position: relative;
+    right: 204px;
+
+
+}
+#c{
+    background-color: rgb(67, 204, 59);
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+   right: 204px;
+  position: relative;
+    display: inline-block;
+    border: 2px solid red;
+}
