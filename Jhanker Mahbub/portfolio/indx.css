@@ -1,0 +1,79 @@
+body{
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+.welcome{
+    margin-top: 50px;
+    width:40%;
+    float: left;
+    padding-left: 5%;
+    margin-left: 2%;
+    
+}
+.welcome img{
+    width:80%;
+}
+ h1{
+    font-size: 50px;
+}
+.orange-color{
+    color: orange;
+}
+.p1{
+font-size: 26px;
+font-weight: bold;
+}
+.p2{
+font-size: 28px;
+
+}
+.s1{
+  background-image: url("image/top-banner.png");
+  background-repeat: no-repeat;
+}
+.btn{
+    text-decoration: none;
+    
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(213, 140, 80),rgb(248, 93, 9)
+    );
+    color: aliceblue;
+    font-weight: bold;
+    
+}
+section{
+    height: 800px;
+    
+}
+.dream1{
+    width: 40%;
+  float: left; 
+  padding-left: 5%;
+  margin-left: 2%; 
+  
+}
+
+.dream1 img{
+    width: 80%;
+}
+.dream{
+    background-image: url("image/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+ 
+   
+}
+
+.first-field{
+    width: 40%;
+  float: left; 
+  padding-left: 5%;
+  margin-left: 2%; 
+  box-shadow: 4px 8px 10px grey;
+}
+
+
+
+
