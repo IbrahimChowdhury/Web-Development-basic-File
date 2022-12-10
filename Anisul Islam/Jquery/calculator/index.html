@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator </title>
+    <link rel="stylesheet" href="indx.css">
+</head>
+<body>
+
+    <div class="container">
+            <div class="calculator">
+                <h1>Calculator</h1>
+                <div class="display">
+                    <input  type="text" class="displayTxt">
+                </div>
+                <div class="buttons">
+                    <div class="1st_row">
+                        <input type="button" value="C" class="btn" onclick="deleteall()">
+                        <input type="button" value="+/-" class="btn" onclick="numbers('+/-')">
+                        <input type="button" value="%" class="btn" onclick="numbers('%')">
+                        <input type="button" value="/" class="btn" onclick="numbers('/')">
+                    </div>
+                    <div class="2nd_row">
+                        <input type="button" value="7" class="btn" onclick="numbers(7)">
+                        <input type="button" value="8" class="btn" onclick="numbers(8)">
+                        <input type="button" value="9" class="btn" onclick="numbers(9)">
+                        <input type="button" value="X" class="btn" onclick="numbers('*')">
+                    </div>
+                    <div class="3rd_row">
+                        <input type="button" value="4" class="btn" onclick="numbers(4)">
+                        <input type="button" value="5" class="btn" onclick="numbers(5)">
+                        <input type="button" value="6" class="btn" onclick="numbers(6)">
+                        <input type="button" value="-" class="btn" onclick="numbers('-')">
+                    </div>
+                    <div class="4th_row">
+                        <input type="button" value="1" class="btn" onclick="numbers(1)">
+                        <input type="button" value="2" class="btn" onclick="numbers(2)">
+                        <input type="button" value="3" class="btn" onclick="numbers(3)">
+                        <input type="button" value="+" class="btn" onclick="numbers('+')">
+                    </div>
+                    <div class="5th_row">
+                        <input type="button" value="0" class="btn" onclick="numbers(0)">
+                        <input type="button" value="." class="btn" onclick="numbers('.')">
+                        <input type="button" value="del" class="btn" onclick="deleteSingleNumber()">
+                        <input type="button" value="=" class="btn" onclick="calculate()">
+                    </div>
+
+                </div>
+
+
+            </div>
+
+    </div>
+    
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="indx.js"></script>
+</body>
+</html>

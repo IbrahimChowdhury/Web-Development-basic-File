@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    
+}
+.main{
+    
+    background-color: antiquewhite;
+    padding: 30px;
+    width:23rem;
+    border-radius: 20px;
+    height: 20rem;
+    
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+input{
+    width:150px;
+    border-radius: 8px;
+}
+.cck{
+    display: flex;
+    justify-content:end;
+    margin:10px
+}
+.result_check{
+  
+    border-radius: 5px;
+    padding: 4px;
+}
+.result_showing{
+ text-align: center;  
+}

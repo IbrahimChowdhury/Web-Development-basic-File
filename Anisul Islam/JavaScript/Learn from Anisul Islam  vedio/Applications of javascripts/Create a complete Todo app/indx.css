@@ -1,0 +1,28 @@
+.todo_list{
+    background-color: antiquewhite;
+    width:300px;
+    margin-top: 10px;
+    padding:5px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.logo_button{
+    background-color: rgb(196, 224, 237);
+    border-radius: 4px;
+}
+.logo_button:hover{
+    background-color: rgb(93, 135, 224);
+}
+.todo_lists{
+    list-style-type:none;
+    padding: 0px;
+    margin: 0px;
+}
+.showMassage{
+    background-color:rgb(180, 212, 178);
+    width: 296px;
+    padding: 5px;
+    margin: 0;
+    border-left: 6px solid rgb(23, 146, 5);
+}

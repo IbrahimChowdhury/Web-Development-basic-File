@@ -1,0 +1,12 @@
+#landing_page{
+    background-image: url("/zomato_background.png");
+}
+.col-3{
+    margin: 15px;
+    
+}
+
+.bx{
+    margin-left:200px;
+    margin-top: 30px;
+}

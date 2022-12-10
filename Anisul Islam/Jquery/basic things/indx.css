@@ -1,0 +1,33 @@
+.style{
+    color: rgb(244, 37, 161);
+    font-size: 1.7rem;
+    font-weight: 800;
+    font-style: italic;
+    background-color: rgb(98, 53, 53);
+    display: inline-block;
+    padding: 15px;
+    border-radius: 20px;
+
+}
+
+.style:hover{
+    color: rgb(231, 231, 231);
+    font-size: 1.7rem;
+    font-weight: 800;
+    font-style: italic;
+    background-color: rgb(82, 53, 53);
+    display: inline-block;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px 0 red;
+}
+
+
+
+.style2{
+    color: red;
+    font-size: 4rem;
+    font-style: italic;
+
+}
+

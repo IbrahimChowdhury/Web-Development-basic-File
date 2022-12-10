@@ -66,12 +66,35 @@ section{
    
 }
 
+.ex{
+    background-image: url("image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
 .first-field{
-    width: 40%;
+    width: 35%;
   float: left; 
   padding-left: 5%;
-  margin-left: 2%; 
+  margin-left: 4%; 
   box-shadow: 4px 8px 10px grey;
+  height: 70%;
+  background-color: white;
+}
+.f1{
+    border-left: 10px solid;
+    border-image:linear-gradient(180deg,rgb(216, 153, 121),rgb(249, 63, 6));
+    border-image-slice: 1;
+}
+.f2{
+    border-left: 10px solid;
+    border-image:linear-gradient(180deg,rgb(121, 137, 197),rgb(38, 6, 249));
+    border-image-slice: 1;
+}
+
+#pp1{
+    font-size: larger;
+    text-align: center;
 }
 
 

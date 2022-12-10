@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(195, 210, 226);
+  
+}
+
+img{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+.box{
+  margin-top: 10%;
+    height: 440px;
+    width: 300px;
+    overflow: hidden ;
+    background-color: aquamarine;
+    box-shadow: 3px 6px 9px rgb(47, 36, 36);
+    
+}
+
+.spec{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+   box-sizing: border-box;
+   
+    
+    bottom: 10px;
+    transition:  0.5s;
+    
+}
+.spec h2{
+    font-size: 32px;
+}
+.box:hover .spec{
+    
+    bottom: 230px;
+   
+}
+.c{
+    width: 20px;
+    height: 20px;
+ display: inline-block;
+
+}

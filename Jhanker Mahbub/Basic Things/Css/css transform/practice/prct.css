@@ -1,0 +1,28 @@
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: gray;
+    border: 5px solid rgb(26, 23, 23);
+}
+.inner{
+    
+    background-color: rgb(91, 126, 86);
+    border: 2px solid rgb(60, 24, 24);
+    transform: scale(0.3) rotate(45deg);
+}
+
+
+
+
+.trans{
+height: 100px;
+width: 100px;
+background-color: rgb(205, 171, 126);
+transition: width 2s,height 2s,rotate 2s;
+}
+
+.trans:hover{
+    width: 200px;
+    height: 200px;
+    rotate: 90deg;
+}
